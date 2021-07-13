@@ -293,6 +293,9 @@ LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
 
 PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
+# Kernel Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := $(TARGET_KERNEL_DIR)/sm6150/kernel-headers
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
