@@ -385,6 +385,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureSunny \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
