@@ -278,6 +278,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
 
+# HALs
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sm6150
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -286,6 +290,12 @@ PRODUCT_PACKAGES += \
 # irqbalance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+
+# Kernel
+TARGET_KERNEL_DIR ?= device/xiaomi/mojito-kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
+
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Keymaster
 PRODUCT_PACKAGES += \

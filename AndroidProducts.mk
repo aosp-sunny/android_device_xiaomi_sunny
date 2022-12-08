@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_mojito.mk
+    $(LOCAL_DIR)/statix_mojito.mk
 	

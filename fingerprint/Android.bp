@@ -38,11 +38,12 @@ cc_binary {
 
 cc_library_static {
     name: "libudfps_extension.xiaomi_sm6150",
+    vendor: true,
     srcs: ["UdfpsExtension.cpp"],
     include_dirs: [
         "frameworks/native/services/surfaceflinger/CompositionEngine/include",
     ],
     header_libs: [
-        "generated_kernel_headers",
+        "device_kernel_headers",
     ],
 }
