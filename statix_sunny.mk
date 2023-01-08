@@ -26,4 +26,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=mojito
 
+BUILD_FINGERPRINT := "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
