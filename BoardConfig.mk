@@ -6,10 +6,10 @@
 
 BOARD_VENDOR := xiaomi
 
-DEVICE_PATH := device/xiaomi/mojito
+DEVICE_PATH := device/xiaomi/sunny
 
 # Inherit from proprietary files
-include vendor/xiaomi/mojito/BoardConfigVendor.mk
+include vendor/xiaomi/sunny/BoardConfigVendor.mk
 
 # A/B
 AB_OTA_UPDATER := true
@@ -98,8 +98,8 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/manifest/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mojito
-TARGET_RECOVERY_DEVICE_MODULES := libinit_mojito
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sunny
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sunny
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 4

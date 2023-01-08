@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mojito device
-$(call inherit-product, device/xiaomi/mojito/device.mk)
+# Inherit from sunny device
+$(call inherit-product, device/xiaomi/sunny/device.mk)
 
 # Inherit some common StatiX stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
@@ -17,8 +17,8 @@ $(call inherit-product, vendor/statix/config/gsm.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := statix_mojito
-PRODUCT_DEVICE := mojito
+PRODUCT_NAME := statix_sunny
+PRODUCT_DEVICE := sunny
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi

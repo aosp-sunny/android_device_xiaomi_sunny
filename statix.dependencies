@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_vendor_xiaomi_mojito",
-    "target_path": "vendor/xiaomi/mojito"
+    "repository": "android_vendor_xiaomi_sunny",
+    "target_path": "vendor/xiaomi/sunny"
   },
 ]
