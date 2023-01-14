@@ -1,6 +1,6 @@
 soong_namespace {
     imports: [
-        "hardware/xiaomi",
+        "vendor/hardware/xiaomi",
         "hardware/qcom-caf/bootctrl",
     ],
 }
