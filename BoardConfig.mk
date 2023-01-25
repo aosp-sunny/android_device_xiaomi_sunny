@@ -152,7 +152,6 @@ TARGET_BOARD_PLATFORM := sm6150
 
 # Power
 TARGET_POWERHAL_BOOST_EXT := $(DEVICE_PATH)/power/boost-ext.cpp
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
