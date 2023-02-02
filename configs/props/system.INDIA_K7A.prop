@@ -1,0 +1,17 @@
+#
+# GLOBAL_K7A variant specific props
+#
+
+ro.build.product=sunny
+ro.product.brand=Redmi
+ro.product.board=sunny
+ro.product.device=mojito
+ro.product.marketname=Redmi Note 10
+ro.product.model=M2101K7AI
+ro.product.name=sunny
+ro.product.system.device=sunny
+ro.product.system.name=sunny
+ro.product.system.brand=Redmi
+ro.product.system.marketname=Redmi Note 10
+ro.product.system.model=M2101K7AI
+ro.system.build.fingerprint=Redmi/sunny_in/sunny:12/RKQ1.210614.002/V13.0.3.0.SKGINXM:user/release-keys

@@ -1,0 +1,21 @@
+#
+# CN variant specific props
+#
+
+ro.build.product=sunny
+ro.product.brand=Redmi
+ro.product.board=sunny
+ro.product.marketname=Redmi Note 10
+ro.product.device=sunny
+ro.product.model=M2101K7AG
+ro.product.name=sunny
+ro.product.vendor.brand=Redmi
+ro.product.vendor.device=sunny
+ro.product.vendor.model=M2101K7AG
+ro.product.vendor.name=sunny
+ro.product.bootimage.device=sunny
+ro.product.bootimage.name=sunny
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.marketname=Redmi Note 10
+ro.product.bootimage.model=M2101K7AG
+ro.vendor.build.fingerprint=Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys

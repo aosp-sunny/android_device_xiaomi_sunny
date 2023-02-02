@@ -1,2 +1,4 @@
 # QC framework value-adds
 ro.vendor.qti.va_odm.support=1
+
+import /odm/odm.${ro.boot.hwc}.prop

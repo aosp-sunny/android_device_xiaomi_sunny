@@ -36,3 +36,5 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+import /system/system.${ro.boot.hwc}.prop
