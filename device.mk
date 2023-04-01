@@ -387,7 +387,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
-    KProfilesSunny \
     FrameworksSunny \
     SettingsProviderSunny \
     SettingsSunny \
