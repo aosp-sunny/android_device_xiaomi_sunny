@@ -7,6 +7,14 @@ ro.charger.enable_suspend=true
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# Common device props
+ro.build.product=sunny
+ro.product.brand=Redmi
+ro.product.marketname=Redmi Note 10
+ro.product.system.device=sunny
+ro.product.system.brand=Redmi
+ro.product.system.marketname=Redmi Note 10
+
 # Display
 debug.force_no_blanking=true
 

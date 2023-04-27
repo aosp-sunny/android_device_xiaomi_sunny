@@ -2,9 +2,5 @@
 # INDIA_K7A variant specific props
 #
 
-ro.product.oem.device=sunny
-ro.product.oem.brand=Redmi
-ro.product.oem.marketname=Redmi Note 10
 ro.product.oem.model=M2101K7AI
-ro.product.oem.name=sunny
 ro.oem.build.fingerprint=Redmi/sunny_in/sunny:12/RKQ1.210614.002/V13.0.3.0.SKGINXM:user/release-keys

@@ -2,4 +2,9 @@
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
 
+# Common device props
+ro.product.product.device=sunny
+ro.product.product.brand=Redmi
+ro.product.product.marketname=Redmi Note 10
+
 import /product/product.${ro.boot.hwc}.prop

@@ -1,4 +1,9 @@
 # QC framework value-adds
 ro.vendor.qti.va_odm.support=1
 
+# Common device props
+ro.product.oem.device=sunny
+ro.product.oem.brand=Redmi
+ro.product.oem.marketname=Redmi Note 10
+
 import /odm/odm.${ro.boot.hwc}.prop

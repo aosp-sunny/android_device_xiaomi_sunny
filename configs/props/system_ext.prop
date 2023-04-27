@@ -18,6 +18,12 @@ bluetooth.profile.sap.server.enabled?=true
 # CNE
 persist.vendor.cne.feature=1
 
+# Common device props
+ro.product.system_ext.device=sunny
+ro.product.system_ext.brand=Redmi
+ro.product.system_ext.marketname=Redmi Note 10
+
+
 # DPM
 persist.vendor.dpm.feature=11
 
