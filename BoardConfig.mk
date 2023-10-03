@@ -69,6 +69,7 @@ TARGET_OTA_ASSERT_DEVICE := mojito,sunny,mojito_global,sunny_global
 
 # Broken
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Camera
