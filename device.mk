@@ -412,6 +412,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # Variant Properties
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,odm.*.prop,$(LOCAL_PATH)/configs/props/,$(TARGET_COPY_OUT_ODM)) \
@@ -536,7 +540,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 29 30
 
 # Vulkan
 PRODUCT_PACKAGES += \

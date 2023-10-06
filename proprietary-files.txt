@@ -903,6 +903,9 @@ vendor/etc/powerhint.xml
 -vendor/bin/pm-service
 -vendor/lib64/libperipheral_client.so
 
+# Protobuf
+-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # QMI
 system_ext/etc/permissions/qti_permissions.xml
 -vendor/bin/irsc_util
