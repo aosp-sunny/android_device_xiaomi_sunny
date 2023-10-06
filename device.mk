@@ -417,6 +417,7 @@ PRODUCT_PACKAGES += \
 
 # Protobuf
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
 # Variant Properties
