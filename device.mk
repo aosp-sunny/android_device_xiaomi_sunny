@@ -423,6 +423,11 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,system_ext.*.prop,$(LOCAL_PATH)/configs/props/,$(TARGET_COPY_OUT_SYSTEM_EXT)) \
     $(call find-copy-subdir-files,vendor.*.prop,$(LOCAL_PATH)/configs/props/,$(TARGET_COPY_OUT_VENDOR))
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
