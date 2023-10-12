@@ -666,7 +666,7 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
 
      <!-- Fingerprint from stock ROM -->
-    <string name="config_stockFingerprint" translatable="false">Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys</string>
+    <string name="config_stockFingerprint" translatable="false">Redmi/sunny_global/sunny:12/RKQ1.210614.002/V14.0.3.0.SKGMIXM:user/release-keys</string>
 
     <!-- The list of package IDs that are allowed to use aux cameras.
          NOTE: If this list is empty then all apps will be able to use aux cameras. -->
