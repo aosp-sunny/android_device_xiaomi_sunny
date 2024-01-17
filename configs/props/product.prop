@@ -7,4 +7,7 @@ ro.product.product.device=sunny
 ro.product.product.brand=Redmi
 ro.product.product.marketname=Redmi Note 10
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 import /product/product.${ro.boot.hwc}.prop
