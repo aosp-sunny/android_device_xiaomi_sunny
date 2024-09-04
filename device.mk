@@ -124,7 +124,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    libgui_vendor \
+    libgui.vendor \
     libdng_sdk.vendor \
     libcamera2ndk_vendor \
     android.hardware.camera.provider@2.4-impl \
